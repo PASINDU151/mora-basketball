@@ -8,7 +8,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
     <footer className="relative px-4 pb-6 pt-8">
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
-          <div className="w-full px-4 lg:w-8/12">
+          <div className="flex w-full flex-col items-center">
             <Typography variant="h4" className="mb-4" color="blue-gray">
               {title}
             </Typography>
