@@ -1,4 +1,4 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+import { Home, Profile, SignIn, SignUp, Gallery} from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -32,7 +32,7 @@ export const routes = [
     icon: PhotoIcon,
     name: "View Gallery",
     path: "/gallery",
-    element: <SignUp />,
+    element: <Gallery />,
   },
   {
     icon: PhoneIcon,
