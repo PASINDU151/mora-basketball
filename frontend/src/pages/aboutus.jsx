@@ -7,7 +7,7 @@ import {
 import { Footer } from "@/widgets/layout";
 import Sidebar from "@/widgets/layout/sidebar";
 
-export function Profile() {
+export function AboutUs() {
   return (
     <>
       <section className="relative block h-[50vh]">
@@ -135,4 +135,4 @@ export function Profile() {
   );
 }
 
-export default Profile;
+export default AboutUs;
