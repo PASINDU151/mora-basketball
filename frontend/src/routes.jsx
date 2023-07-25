@@ -1,4 +1,4 @@
-import { Home, AboutUs, SignUp, Gallery } from "@/pages";
+import { Home, AboutUs, SignIn, Gallery } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
