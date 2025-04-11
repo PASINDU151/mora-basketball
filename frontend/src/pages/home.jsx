@@ -18,8 +18,8 @@ import Blog from "@/widgets/layout/Blog";
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
-      <div className="absolute top-0 h-full w-full bg-[url('/img/champs2022.jpg')] bg-cover bg-center" />
+      <div className="relative flex h-[75vh] content-center items-center justify-center pb-32 pt-16">
+      <div className="absolute top-0 h-full w-full bg-[url('/img/champs2024.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -32,10 +32,7 @@ export function Home() {
                 Mora Basketball
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                Mora basketball 2023 sample design by Mora Basketball by Mora
-                Basketball. Mora basketball 2023 sample design by Mora
-                Basketball by Mora Basketball. Mora basketball 2023 sample
-                design by Mora Basketball by Mora Basketball.
+              We are the official basketball team of the University of Moratuwa. For over a decade, we've stood tall among the top 3 teams in university games across the nation, building a legacy rooted in excellence.
               </Typography>
             </div>
           </div>

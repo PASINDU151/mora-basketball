@@ -26,7 +26,7 @@ export function Navbar({ brandName, routes, action }) {
         <Typography
           key={name}
           as="li"
-          variant="small"
+          variant="h6"
           color="inherit"
           className="capitalize"
         >
@@ -46,11 +46,11 @@ export function Navbar({ brandName, routes, action }) {
             <Link
               to={path}
               target={target}
-              className="flex items-center gap-1 p-1 font-normal"
+              className="flex items-center hover:text-blue-500 gap-2 p-2 font-normal"
             >
               {icon &&
                 React.createElement(icon, {
-                  className: "w-[18px] h-[18px] opacity-75 mr-1",
+                  className: " w-6 h-6 opacity-80 mr-1",
                 })}
               {name}
             </Link>
@@ -126,16 +126,16 @@ Navbar.defaultProps = {
       <img
         src="/public/img/uom_logo.png"
         alt="UOM Logo"
-        style={{ marginRight: "5px", maxHeight: "75px", maxWidth: "75px" }}
+        style={{ marginRight: "5px", maxHeight: "100px", maxWidth: "100px" }}
       />
     </a>
   ),
   action: (
     <a href="https://www.facebook.com/MoraBasketball" target="_blank">
       <img
-        src="/public/img/favicon.jpeg"
+        src="/public/img/mora_jpg.png"
         alt="MoraBB Logo"
-        style={{ marginRight: "5px", maxHeight: "75px", maxWidth: "75px" }}
+        style={{ marginRight: "5px", maxHeight: "100px", maxWidth: "100px" }}
       />
     </a>
   ),
